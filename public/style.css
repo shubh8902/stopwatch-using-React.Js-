@@ -1,0 +1,36 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: brown;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 0 20px;
+}
+
+.timer {
+    font-size: 50px;
+    text-align: center;
+}
